@@ -1,0 +1,26 @@
+port: 2100
+dport: 80
+baseurl: 'http://localhost'
+middleurl: '/api/v1'
+enabledJWT: false
+
+# MySQL config
+development:
+    host: 'localhost'
+    username: 'root'
+    password: ''
+    database: 'example'
+    client: 'mysql'
+    port: ''
+    tz: 'utc'
+    #logging: false
+
+production:
+    host: ''
+    username: 'root'
+    password: ''
+    database: ''
+    client: 'mariadb'
+    port: ''
+    tz: 'utc'
+    #logging: false
